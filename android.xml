@@ -26,8 +26,8 @@
 		<parameter name="chromeDriverPort" value="11002" />
 		<classes>
 			<class name="com.qa.tests.LoginTest" />
-			<class name="com.qa.tests.ProductTest" />
-		</classes>
+<!-- 			<class name="com.qa.tests.ProductTest" />
+ -->		</classes>
 	</test>
 	<!-- <test name="iOS">
 		<parameter name="platformName" value="iOS" />
