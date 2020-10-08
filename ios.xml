@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.qa.listeners.Listener" />
+	</listeners>
+	<!-- <test name="samsungs10">
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="deviceName" value="samsungs10" />
+		<parameter name="udid" value="R58M541G32E" />
+		<parameter name="udid" value="52004a1c941486a7" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<classes>
+			<class name="com.qa.tests.LoginTest" />
+			<class name="com.qa.tests.ProductTest" />
+		</classes>
+	</test> -->
+	<test name="samsung">
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="deviceName" value="PIXEL_2" />
+		<parameter name="udid" value="emulator-5554" />
+		<parameter name="systemPort" value="10002" />
+		<parameter name="chromeDriverPort" value="11002" />
+		<classes>
+			<class name="com.qa.tests.LoginTest" />
+			<class name="com.qa.tests.ProductTest" />
+		</classes>
+	</test>
+	<!-- <test name="iOS">
+		<parameter name="platformName" value="iOS" />
+		<parameter name="deviceName" value="Iphone Xs max qa" />
+		<parameter name="udid" value="00008020-001C68321AA3002E" />
+		<parameter name="wdaLocalPort" value="10001" />
+		<parameter name="webkitDebugProxyPort" value="11001" />
+		<classes>
+			<class name="com.qa.tests.LoginTest" />
+			<class name="com.qa.tests.ProductTest" />
+		</classes>
+	</test> -->
+</suite> <!-- Suite -->

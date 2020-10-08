@@ -1,0 +1,96 @@
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:52:47.722 BaseTest:186 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:52:47.739 BaseTest:210 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:52:47.739 BaseTest:220 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:05.248 LoginTest:60 - 
+****Starting Test ->  invalidPassword   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:05.253 LoginTest:81 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:07.110 LoginPage:33 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:09.006 LoginPage:40 - Login with -secretsauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:10.329 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:11.432 LoginTest:88 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:11.434 Listener:106 - Success of test cases and its details are : invalidPassword
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:11.436 LoginTest:60 - 
+****Starting Test ->  invalidUserName   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:11.438 LoginTest:69 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:11.632 LoginPage:33 - Login with -invalidUser
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:13.615 LoginPage:40 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:15.177 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:15.818 LoginTest:76 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:15.820 Listener:106 - Success of test cases and its details are : invalidUserName
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:15.821 LoginTest:60 - 
+****Starting Test ->  successfulLogin   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:15.823 LoginTest:93 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:15.995 LoginPage:33 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:17.434 LoginPage:40 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:19.225 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:21.228 LoginTest:100 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:53:21.230 Listener:106 - Success of test cases and its details are : successfulLogin
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:55:42.655 BaseTest:190 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:55:42.666 BaseTest:214 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:55:42.667 BaseTest:224 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:56:04.394 BaseTest:190 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:56:04.405 BaseTest:214 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-07-26 15:56:04.405 BaseTest:224 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:14.074 BaseTest:207 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:14.088 BaseTest:231 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:14.088 BaseTest:241 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:29.107 LoginTest:60 - 
+****Starting Test ->  invalidPassword   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:29.113 LoginTest:81 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:30.165 LoginPage:33 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:31.592 LoginPage:40 - Login with -secretsauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:33.547 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:34.969 LoginTest:88 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:34.971 Listener:106 - Success of test cases and its details are : invalidPassword
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:34.977 LoginTest:60 - 
+****Starting Test ->  invalidUserName   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:34.979 LoginTest:69 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:35.220 LoginPage:33 - Login with -invalidUser
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:37.178 LoginPage:40 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:38.555 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:39.166 LoginTest:76 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:39.169 Listener:106 - Success of test cases and its details are : invalidUserName
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:39.171 LoginTest:60 - 
+****Starting Test ->  successfulLogin   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:39.173 LoginTest:93 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:39.357 LoginPage:33 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:41.283 LoginPage:40 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:43.142 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:45.743 LoginTest:100 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:00:45.745 Listener:106 - Success of test cases and its details are : successfulLogin
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:01:44.572 BaseTest:207 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:01:44.584 BaseTest:231 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:01:44.584 BaseTest:241 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:01:58.047 LoginTest:60 - 
+****Starting Test ->  invalidPassword   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:01:58.054 LoginTest:81 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:01:59.089 LoginPage:33 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:01.312 LoginPage:40 - Login with -secretsauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:02.747 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:03.718 LoginTest:88 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:03.722 Listener:106 - Success of test cases and its details are : invalidPassword
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:03.725 LoginTest:60 - 
+****Starting Test ->  invalidUserName   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:03.727 LoginTest:69 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:03.882 LoginPage:33 - Login with -invalidUser
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:06.274 LoginPage:40 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:07.941 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:08.802 LoginTest:76 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:08.804 Listener:106 - Success of test cases and its details are : invalidUserName
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:08.806 LoginTest:60 - 
+****Starting Test ->  successfulLogin   *****
+
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:08.809 LoginTest:93 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:09.000 LoginPage:33 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:10.907 LoginPage:40 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:12.279 LoginPage:47 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:14.440 LoginTest:100 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-07-26 16:02:14.442 Listener:106 - Success of test cases and its details are : successfulLogin

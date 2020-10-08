@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.listeners.Listener"/>
+  </listeners>
+  <test name="samsung(failed)" parallel="tests">
+    <parameter name="emulator" value="false"/>
+    <parameter name="chromeDriverPort" value="11002"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="PIXEL_2"/>
+    <parameter name="systemPort" value="10002"/>
+    <classes>
+      <class name="com.qa.tests.ProductTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="validateProductOnProductsDetailPage"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.qa.tests.ProductTest -->
+    </classes>
+  </test> <!-- samsung(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

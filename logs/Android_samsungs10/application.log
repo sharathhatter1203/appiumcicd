@@ -1,0 +1,48 @@
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:50:22.072 BaseTest:209 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:50:22.082 BaseTest:233 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:50:22.083 BaseTest:243 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:52:53.492 BaseTest:210 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:52:53.501 BaseTest:234 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:52:53.501 BaseTest:244 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:54:42.550 BaseTest:210 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:54:42.558 BaseTest:234 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:54:42.559 BaseTest:244 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:55:49.201 BaseTest:210 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:55:49.210 BaseTest:234 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:55:49.210 BaseTest:244 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:33.516 BaseTest:210 - log path: logs/Android_samsungs10
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:33.524 BaseTest:234 - UiAutomator2
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:33.524 BaseTest:244 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:45.672 LoginTest:60 - 
+****Starting Test ->  invalidPassword   *****
+
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:45.794 LoginTest:81 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:47.337 BaseTest:311 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:49.574 BaseTest:311 - Login with -secretsauce
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:50.273 BaseTest:298 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:51.881 BaseTest:335 - error text is Username and password do not match any user in this service.
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:51.885 LoginTest:88 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:51.891 LoginTest:60 - 
+****Starting Test ->  invalidUserName   *****
+
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:51.893 LoginTest:69 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:52.750 BaseTest:311 - Login with -invalidUser
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:54.571 BaseTest:311 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:55.247 BaseTest:298 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:56.010 BaseTest:335 - error text is Username and password do not match any user in this service.
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:56.010 LoginTest:76 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:56.014 LoginTest:60 - 
+****Starting Test ->  successfulLogin   *****
+
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:56.016 LoginTest:93 - Inside test method
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:56.850 BaseTest:311 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:56:59.116 BaseTest:311 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:00.315 BaseTest:298 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:02.491 BaseTest:335 - PRoduct Title text  -PRODUCTS
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:02.492 LoginTest:100 - before coming out of test method
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:06.907 BaseTest:311 - Login with -standard_user
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:08.679 BaseTest:311 - Login with -secret_sauce
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:09.844 BaseTest:298 - Press Login button
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:11.554 BaseTest:298 - Pressed SLP title 
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:13.616 BaseTest:335 - Profuct title - Sauce Labs Backpack
+[logs/Android_samsungs10 INFO ] 2020-09-11 09:57:14.201 BaseTest:335 - Profuct text - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.

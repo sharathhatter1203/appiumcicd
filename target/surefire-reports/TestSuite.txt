@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 115.885 s <<< FAILURE! - in TestSuite
+validateProductOnProductsDetailPage(com.qa.tests.ProductTest)  Time elapsed: 16.341 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@1add2367 (tried for 1 second(s) with 500 milliseconds interval)
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:409:f385:3698:e765%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+
+validateProductOnProductsDetailPage(com.qa.tests.ProductTest)  Time elapsed: 15.586 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@12affef (tried for 1 second(s) with 500 milliseconds interval)
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:409:f385:3698:e765%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
+

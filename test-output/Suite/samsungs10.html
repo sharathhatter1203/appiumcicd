@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  samsungs10</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>samsungs10</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 11 09:56:33 GST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>44 seconds (44472 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.ProductTest.validateProductOnProductsDetailPage()'><b>validateProductOnProductsDetailPage</b><br>Test class: com.qa.tests.ProductTest<br/>
+<a href="#Output-2089773019" onClick='toggleBox("Output-2089773019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2089773019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2089773019">
+This is the sample screenshot<br/>
+<a href='/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/Screenshots/Android_null_samsungs10/2020-09-11-09-56-33/ProductTest/validateProductOnProductsDetailPage.png'> <img src='/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/Screenshots/Android_null_samsungs10/2020-09-11-09-56-33/ProductTest/validateProductOnProductsDetailPage.png' height='300' width='300'/> </a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: Locator Strategy &apos;name&apos; is not supported for this session
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:14b1:ed5b:bb3e:5c54%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/sharathrudramuniyapp..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11000, databaseEnabled: false, desired: {app: /Users/sharathrudramuniyapp..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11000, deviceName: samsungs10, platformName: android, systemPort: 10000, udid: R58M541G32E}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M541G32E, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M541G32E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M541G32E, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: db3f580d-2f2a-4cd1-96d1-c177a214ca80
+*** Element info: {Using=name, value=test-ADD TO CART}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:117)
+	at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.qa.BaseTest.iOSScrollToElement(BaseTest.java:377)
+	at com.qa.pages.ProductDetailsPage.scrollPage(ProductDetailsPage.java:50)
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:106)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2089773019", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2089773019'><pre>org.openqa.selenium.InvalidSelectorException: Locator Strategy &apos;name&apos; is not supported for this session
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:14b1:ed5b:bb3e:5c54%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/sharathrudramuniyapp..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11000, databaseEnabled: false, desired: {app: /Users/sharathrudramuniyapp..., appActivity: com.swaglabsmobileapp.Splas..., appPackage: com.swaglabsmobileapp, automationName: UiAutomator2, chromeDriverPort: 11000, deviceName: samsungs10, platformName: android, systemPort: 10000, udid: R58M541G32E}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M541G32E, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M541G32E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M541G32E, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: db3f580d-2f2a-4cd1-96d1-c177a214ca80
+*** Element info: {Using=name, value=test-ADD TO CART}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:117)
+	at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.qa.BaseTest.iOSScrollToElement(BaseTest.java:377)
+	at com.qa.pages.ProductDetailsPage.scrollPage(ProductDetailsPage.java:50)
+	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.tests.ProductTest@458c1321</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.LoginTest.invalidPassword()'><b>invalidPassword</b><br>Test class: com.qa.tests.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.LoginTest@305fd85d</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTest.invalidUserName()'><b>invalidUserName</b><br>Test class: com.qa.tests.LoginTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.LoginTest@305fd85d</td></tr>
+<tr>
+<td title='com.qa.tests.LoginTest.successfulLogin()'><b>successfulLogin</b><br>Test class: com.qa.tests.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.LoginTest@305fd85d</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,5 @@
+2020-10-03 05:39:01:492 [Appium] Welcome to Appium v1.16.0
+2020-10-03 05:39:01:493 [Appium] Non-default server args:
+2020-10-03 05:39:01:494 [Appium]   sessionOverride: true
+2020-10-03 05:39:01:495 [Appium]   logFile: /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/ServerLogs/server.log
+2020-10-03 05:39:01:519 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
