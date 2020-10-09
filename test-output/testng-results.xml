@@ -2,16 +2,16 @@
 <testng-results skipped="4" failed="0" ignored="4" total="8" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1632" started-at="2020-09-11T05:58:20Z" finished-at="2020-09-11T05:58:22Z">
+  <suite name="Suite" duration-ms="3985" started-at="2020-10-08T05:37:14Z" finished-at="2020-10-08T05:37:18Z">
     <groups>
     </groups>
-    <test name="iOS" duration-ms="1632" started-at="2020-09-11T05:58:20Z" finished-at="2020-09-11T05:58:22Z">
+    <test name="iOS" duration-ms="3985" started-at="2020-10-08T05:37:14Z" finished-at="2020-10-08T05:37:18Z">
       <class name="com.qa.tests.LoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeSuite" is-config="true" duration-ms="752" started-at="2020-09-11T09:58:19Z" finished-at="2020-09-11T09:58:20Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeSuite" is-config="true" duration-ms="2881" started-at="2020-10-08T09:37:12Z" finished-at="2020-10-08T09:37:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeTest" is-config="true" duration-ms="1585" started-at="2020-09-11T09:58:20Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeTest" is-config="true" duration-ms="3914" started-at="2020-10-08T09:37:14Z" finished-at="2020-10-08T09:37:18Z">
           <params>
             <param index="0">
               <value>
@@ -25,12 +25,12 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Iphone Xs max qa]]>
+                <![CDATA[iPhone 11]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[00008020-001C68321AA3002E]]>
+                <![CDATA[953FF8BF-F779-4C91-8A57-8E4335E4D2AC]]>
               </value>
             </param>
             <param index="4">
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -89,11 +89,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="invalidPassword" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="invalidPassword" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -125,11 +125,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="invalidUserName" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="invalidUserName" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -161,11 +161,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserName -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="successfulLogin" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="successfulLogin" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -197,21 +197,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLogin -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.qa.tests.LoginTest@305fd85d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:19Z" finished-at="2020-10-08T09:37:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.qa.tests.LoginTest -->
       <class name="com.qa.tests.ProductTest">
-        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -243,11 +243,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="validateProductOnProductsDetailPage()[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="validateProductOnProductsDetailPage" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="validateProductOnProductsDetailPage()[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="validateProductOnProductsDetailPage" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -279,7 +279,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProductOnProductsDetailPage -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-09-11T09:58:22Z" finished-at="2020-09-11T09:58:22Z">
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.qa.tests.ProductTest@458c1321]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-08T09:37:18Z" finished-at="2020-10-08T09:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

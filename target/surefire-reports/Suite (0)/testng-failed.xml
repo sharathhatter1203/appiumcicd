@@ -4,13 +4,12 @@
   <listeners>
     <listener class-name="com.qa.listeners.Listener"/>
   </listeners>
-  <test name="samsung(failed)" parallel="tests">
-    <parameter name="emulator" value="false"/>
-    <parameter name="chromeDriverPort" value="11002"/>
-    <parameter name="platformName" value="Android"/>
-    <parameter name="udid" value="emulator-5554"/>
-    <parameter name="deviceName" value="PIXEL_2"/>
-    <parameter name="systemPort" value="10002"/>
+  <test name="iOS(failed)" parallel="tests">
+    <parameter name="webkitDebugProxyPort" value="11001"/>
+    <parameter name="platformName" value="iOS"/>
+    <parameter name="udid" value="953FF8BF-F779-4C91-8A57-8E4335E4D2AC"/>
+    <parameter name="deviceName" value="Iphone Xs max qa"/>
+    <parameter name="wdaLocalPort" value="10001"/>
     <classes>
       <class name="com.qa.tests.ProductTest">
         <methods>
@@ -25,6 +24,21 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.qa.tests.ProductTest -->
+      <class name="com.qa.tests.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="successfulLogin"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="invalidPassword"/>
+          <include name="invalidUserName"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTest -->
     </classes>
-  </test> <!-- samsung(failed) -->
+  </test> <!-- iOS(failed) -->
 </suite> <!-- Failed suite [Suite (0)] -->

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>testng.xml</span>
+                    <span>ios.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -215,7 +215,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/testng.xml</span>
+            <span class="header-content">/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/ios.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -228,8 +228,8 @@
   &lt;test name=&quot;iOS&quot;&gt;
     &lt;parameter name=&quot;webkitDebugProxyPort&quot; value=&quot;11001&quot;/&gt;
     &lt;parameter name=&quot;platformName&quot; value=&quot;iOS&quot;/&gt;
-    &lt;parameter name=&quot;udid&quot; value=&quot;00008020-001C68321AA3002E&quot;/&gt;
-    &lt;parameter name=&quot;deviceName&quot; value=&quot;Iphone Xs max qa&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;953FF8BF-F779-4C91-8A57-8E4335E4D2AC&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;iPhone 11&quot;/&gt;
     &lt;parameter name=&quot;wdaLocalPort&quot; value=&quot;10001&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.tests.LoginTest&quot;/&gt;
@@ -275,20 +275,20 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'invalidUserName')
+data.setCell(0, 1, 'successfulLogin')
 data.setCell(0, 2, 'com.qa.tests.LoginTest')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'invalidPassword')
+data.setCell(1, 1, 'invalidUserName')
 data.setCell(1, 2, 'com.qa.tests.LoginTest')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'successfulLogin')
-data.setCell(2, 2, 'com.qa.tests.LoginTest')
+data.setCell(2, 1, 'validateProductOnProductsDetailPage')
+data.setCell(2, 2, 'com.qa.tests.ProductTest')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateProductOnProductsDetailPage')
-data.setCell(3, 2, 'com.qa.tests.ProductTest')
+data.setCell(3, 1, 'invalidPassword')
+data.setCell(3, 2, 'com.qa.tests.LoginTest')
 data.setCell(3, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
@@ -339,14 +339,14 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(androidOnly, iOS, Iphone Xs max qa, 00008020-001C68321AA3002E, androidOnly, androidOnly, 10001, 1100...)</span>
-                <span class="method-start">754 ms</span>
+                <span class="method-name">beforeTest(androidOnly, iOS, iPhone 11, 953FF8BF-F779-4C91-8A57-8E4335E4D2AC, androidOnly, androidOnly, 10001, ...)</span>
+                <span class="method-start">2887 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">2343 ms</span>
+                <span class="method-start">6805 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -355,7 +355,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">2372 ms</span>
+                <span class="method-start">6852 ms</span>
               </div> <!-- configuration-class before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

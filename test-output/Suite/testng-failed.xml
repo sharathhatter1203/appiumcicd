@@ -7,8 +7,8 @@
   <test name="iOS(failed)" parallel="tests">
     <parameter name="webkitDebugProxyPort" value="11001"/>
     <parameter name="platformName" value="iOS"/>
-    <parameter name="udid" value="00008020-001C68321AA3002E"/>
-    <parameter name="deviceName" value="Iphone Xs max qa"/>
+    <parameter name="udid" value="953FF8BF-F779-4C91-8A57-8E4335E4D2AC"/>
+    <parameter name="deviceName" value="iPhone 11"/>
     <parameter name="wdaLocalPort" value="10001"/>
     <classes>
       <class name="com.qa.tests.LoginTest">

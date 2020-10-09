@@ -1,70 +1,30 @@
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:19.937 BaseTest:210 - log path: logs/Android_PIXEL_2
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:19.948 BaseTest:234 - UiAutomator2
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:19.949 BaseTest:244 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:39.443 LoginTest:60 - 
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:06.822 BaseTest:210 - log path: logs/Android_PIXEL_2
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:06.839 BaseTest:234 - UiAutomator2
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:06.839 BaseTest:244 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:25.062 LoginTest:60 - 
 ****Starting Test ->  invalidPassword   *****
 
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:39.579 LoginTest:81 - Inside test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:41.641 BaseTest:311 - Login with -standard_user
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:42.858 BaseTest:311 - Login with -secretsauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:43.937 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:44.912 BaseTest:335 - error text is Username and password do not match any user in this service.
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:44.916 LoginTest:88 - before coming out of test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:44.918 LoginTest:60 - 
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:25.224 LoginTest:81 - Inside test method
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:27.768 BaseTest:311 - Login with -standard_user
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:28.978 BaseTest:311 - Login with -secretsauce
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:29.603 BaseTest:298 - Press Login button
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:30.538 BaseTest:335 - error text is Username and password do not match any user in this service.
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:30.540 LoginTest:88 - before coming out of test method
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:30.544 LoginTest:60 - 
 ****Starting Test ->  invalidUserName   *****
 
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:44.919 LoginTest:69 - Inside test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:45.641 BaseTest:311 - Login with -invalidUser
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:47.297 BaseTest:311 - Login with -secret_sauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:48.381 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:48.829 BaseTest:335 - error text is Username and password do not match any user in this service.
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:48.829 LoginTest:76 - before coming out of test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:48.831 LoginTest:60 - 
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:30.544 LoginTest:69 - Inside test method
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:31.323 BaseTest:311 - Login with -invalidUser
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:32.476 BaseTest:311 - Login with -secret_sauce
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:33.544 BaseTest:298 - Press Login button
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:34.001 BaseTest:335 - error text is Username and password do not match any user in this service.
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:34.001 LoginTest:76 - before coming out of test method
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:34.003 LoginTest:60 - 
 ****Starting Test ->  successfulLogin   *****
 
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:48.832 LoginTest:93 - Inside test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:49.548 BaseTest:311 - Login with -standard_user
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:50.702 BaseTest:311 - Login with -secret_sauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:51.311 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:53.166 BaseTest:335 - PRoduct Title text  -PRODUCTS
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:53.166 LoginTest:100 - before coming out of test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:34:58.794 BaseTest:311 - Login with -standard_user
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:00.460 BaseTest:311 - Login with -secret_sauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:01.779 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:04.182 BaseTest:298 - Pressed SLP title 
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:05.879 BaseTest:335 - Profuct title - Sauce Labs Backpack
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:21.303 BaseTest:210 - log path: logs/Android_PIXEL_2
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:21.307 BaseTest:234 - UiAutomator2
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:21.307 BaseTest:244 - /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes/app/saucelabs.apk
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:33.677 LoginTest:60 - 
-****Starting Test ->  invalidPassword   *****
-
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:33.678 LoginTest:81 - Inside test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:35.785 BaseTest:311 - Login with -standard_user
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:37.435 BaseTest:311 - Login with -secretsauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:38.509 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:39.399 BaseTest:335 - error text is Username and password do not match any user in this service.
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:39.399 LoginTest:88 - before coming out of test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:39.401 LoginTest:60 - 
-****Starting Test ->  invalidUserName   *****
-
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:39.402 LoginTest:69 - Inside test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:40.112 BaseTest:311 - Login with -invalidUser
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:41.732 BaseTest:311 - Login with -secret_sauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:42.790 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:43.230 BaseTest:335 - error text is Username and password do not match any user in this service.
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:43.230 LoginTest:76 - before coming out of test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:43.231 LoginTest:60 - 
-****Starting Test ->  successfulLogin   *****
-
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:43.232 LoginTest:93 - Inside test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:43.934 BaseTest:311 - Login with -standard_user
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:45.561 BaseTest:311 - Login with -secret_sauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:46.145 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:47.985 BaseTest:335 - PRoduct Title text  -PRODUCTS
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:47.985 LoginTest:100 - before coming out of test method
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:53.308 BaseTest:311 - Login with -standard_user
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:54.939 BaseTest:311 - Login with -secret_sauce
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:55.998 BaseTest:298 - Press Login button
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:57.727 BaseTest:298 - Pressed SLP title 
-[logs/Android_PIXEL_2 INFO ] 2020-10-03 09:35:59.579 BaseTest:335 - Profuct title - Sauce Labs Backpack
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:34.004 LoginTest:93 - Inside test method
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:34.728 BaseTest:311 - Login with -standard_user
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:35.899 BaseTest:311 - Login with -secret_sauce
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:36.494 BaseTest:298 - Press Login button
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:38.592 BaseTest:335 - PRoduct Title text  -PRODUCTS
+[logs/Android_PIXEL_2 INFO ] 2020-10-09 17:27:38.595 LoginTest:100 - before coming out of test method

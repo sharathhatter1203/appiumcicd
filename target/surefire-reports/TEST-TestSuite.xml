@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="115.885" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="38.656" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="android.xml"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
@@ -12,13 +13,12 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value=""/>
-    <property name="suiteXmlFile" value="android.xml"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="user.country" value="AE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/surefire/surefirebooter7777354234525747771.jar /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/surefire 2020-10-03T09-34-17_458-jvmRun1 surefire4720686578413294676tmp surefire_06677802004890612114tmp"/>
+    <property name="sun.java.command" value="/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/surefire/surefirebooter5897116282108686473.jar /Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/surefire 2020-10-09T17-27-02_495-jvmRun1 surefire8690001934490000163tmp surefire_05806767957362164648tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/test-classes:/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/classes:/Users/sharathrudramuniyappa/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.2/log4j-core-2.13.2.jar:/Users/sharathrudramuniyappa/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar:/Users/sharathrudramuniyappa/.m2/repository/com/aventstack/extentreports/4.1.2/extentreports-4.1.2.jar:/Users/sharathrudramuniyappa/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/sharathrudramuniyappa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/sharathrudramuniyappa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/sharathrudramuniyappa/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/sharathrudramuniyappa/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/sharathrudramuniyappa/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sharathrudramuniyappa/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/sharathrudramuniyappa/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/sharathrudramuniyappa/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/sharathrudramuniyappa/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sharathrudramuniyappa/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sharathrudramuniyappa/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sharathrudramuniyappa/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/sharathrudramuniyappa/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sharathrudramuniyappa/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sharathrudramuniyappa/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sharathrudramuniyappa/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sharathrudramuniyappa/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sharathrudramuniyappa/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sharathrudramuniyappa/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/sharathrudramuniyappa/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/sharathrudramuniyappa/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/sharathrudramuniyappa/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/sharathrudramuniyappa/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/sharathrudramuniyappa/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/sharathrudramuniyappa/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/sharathrudramuniyappa/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/sharathrudramuniyappa/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/sharathrudramuniyappa/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/sharathrudramuniyappa/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/sharathrudramuniyappa/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/sharathrudramuniyappa/.m2/repository/org/json/json/20190722/json-20190722.jar:/Users/sharathrudramuniyappa/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/sharathrudramuniyappa/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sharathrudramuniyappa/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/sharathrudramuniyappa/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/sharathrudramuniyappa/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/sharathrudramuniyappa/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/sharathrudramuniyappa/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/sharathrudramuniyappa/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sharathrudramuniyappa/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/surefire/surefirebooter7777354234525747771.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sharathrudramuniyappa/eclipse-workspace/Parallel/target/surefire/surefirebooter5897116282108686473.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,66 +62,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="invalidPassword" classname="com.qa.tests.LoginTest" time="5.338"/>
-  <testcase name="invalidPassword" classname="com.qa.tests.LoginTest" time="5.722"/>
-  <testcase name="invalidUserName" classname="com.qa.tests.LoginTest" time="3.909"/>
-  <testcase name="invalidUserName" classname="com.qa.tests.LoginTest" time="3.828"/>
-  <testcase name="successfulLogin" classname="com.qa.tests.LoginTest" time="4.335"/>
-  <testcase name="successfulLogin" classname="com.qa.tests.LoginTest" time="4.754"/>
-  <testcase name="validateProductOnProductsDetailPage" classname="com.qa.tests.ProductTest" time="16.341">
-    <failure message="Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc=&quot;test-Description&quot;]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@1add2367 (tried for 1 second(s) with 500 milliseconds interval)
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:409:f385:3698:e765%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_221'
-Driver info: driver.version: AndroidDriver
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-</failure>
-    <system-out><![CDATA[[INFO ] 2020-10-03 09:34:58.794 com.qa.BaseTest:311 - Login with -standard_user
-[INFO ] 2020-10-03 09:35:00.460 com.qa.BaseTest:311 - Login with -secret_sauce
-[INFO ] 2020-10-03 09:35:01.779 com.qa.BaseTest:298 - Press Login button
-[INFO ] 2020-10-03 09:35:04.182 com.qa.BaseTest:298 - Pressed SLP title 
-[INFO ] 2020-10-03 09:35:05.879 com.qa.BaseTest:335 - Profuct title - Sauce Labs Backpack
-emulator=false
-chromeDriverPort=11002
-platformName=Android
-udid=emulator-5554
-deviceName=PIXEL_2
-systemPort=10002
-]]></system-out>
-  </testcase>
-  <testcase name="validateProductOnProductsDetailPage" classname="com.qa.tests.ProductTest" time="15.586">
-    <failure message="Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc=&quot;test-Description&quot;]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]}) (tried for 10 second(s) with 500 milliseconds interval)
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@12affef (tried for 1 second(s) with 500 milliseconds interval)
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:409:f385:3698:e765%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_221'
-Driver info: driver.version: AndroidDriver
-	at com.qa.tests.ProductTest.validateProductOnProductsDetailPage(ProductTest.java:101)
-</failure>
-    <system-out><![CDATA[[INFO ] 2020-10-03 09:35:53.308 com.qa.BaseTest:311 - Login with -standard_user
-[INFO ] 2020-10-03 09:35:54.939 com.qa.BaseTest:311 - Login with -secret_sauce
-[INFO ] 2020-10-03 09:35:55.998 com.qa.BaseTest:298 - Press Login button
-[INFO ] 2020-10-03 09:35:57.727 com.qa.BaseTest:298 - Pressed SLP title 
-[INFO ] 2020-10-03 09:35:59.579 com.qa.BaseTest:335 - Profuct title - Sauce Labs Backpack
-emulator=false
-chromeDriverPort=11002
-platformName=Android
-udid=emulator-5554
-deviceName=PIXEL_2
-systemPort=10002
-]]></system-out>
-  </testcase>
+  <testcase name="invalidPassword" classname="com.qa.tests.LoginTest" time="5.479"/>
+  <testcase name="invalidUserName" classname="com.qa.tests.LoginTest" time="3.435"/>
+  <testcase name="successfulLogin" classname="com.qa.tests.LoginTest" time="4.592"/>
 </testsuite>
